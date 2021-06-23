@@ -1,0 +1,16 @@
+$pink: #ff4486;
+
+$primary: #0090c5;
+$primary-hover: #10a0d5;
+$primary-active: #20b0e5;
+
+$gray-dark: #444;
+$gray: #696969;
+$gray-light: #eee;
+
+// Bootstrap reset overwrite
+$body-color: $gray-dark;
+$body-bg: $gray-light;
+$link-color: $primary;
+$link-color-hover: $primary-hover;
+$border-radius: 6px;

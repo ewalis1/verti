@@ -1,0 +1,43 @@
+.header {
+    padding: 2.5rem 0 1.3rem 0;
+  
+    @include media-breakpoint-up(lg) {
+      padding: 4.5rem 0 3rem 0;
+    }
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+    }
+  
+    &__name {
+      display: inline-block;
+      font-size: 2.5rem;
+      margin: 0 0 .15em 0;
+      line-height: 1.2;
+      padding: 0 .25em;
+      background-color: $pink;
+      border-radius: $border-radius;
+      color: $white;
+      font-family: 'Oleo script';
+  
+      @include media-breakpoint-up(lg) {
+        margin: 0 .25em 0 0;
+        font-size: 3.25rem;
+      }
+    }
+  
+    &__slogan {
+      font-size: .85rem;
+  
+      @include media-breakpoint-up(lg) {
+        font-size: 1rem;
+      }
+    }
+  }

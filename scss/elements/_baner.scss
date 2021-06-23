@@ -1,0 +1,45 @@
+.baner {
+    padding: 1rem;
+    text-align: center;
+  
+    @include media-breakpoint-up(lg) {
+      padding: 4.5rem;
+      text-align: left;
+    }
+  
+    &__title {
+      font-size: 2rem;
+  
+      @include media-breakpoint-up(sm) {
+        font-size: 3.5rem;
+      }
+    }
+  
+    &__description {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: lighter;
+  
+      @include media-breakpoint-up(sm) {
+        font-size: 2.75rem;
+      }
+    }
+  
+    .button {
+      @include media-breakpoint-up(sm) {
+        font-size: 2em;
+      }
+  
+      &:not(:last-child) {
+        margin-bottom: 1em;
+      }
+  
+      .fas {
+        @include media-breakpoint-up(lg) {
+          order: 1;
+          margin-left: .5em;
+          margin-right: 0;
+        }
+      }
+    }
+  } 
